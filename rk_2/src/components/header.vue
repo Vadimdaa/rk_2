@@ -7,11 +7,11 @@
         </div>
         <nav class="header__nav nav">
           <ul class="nav__list">
-            <li class="nav__li"><a href="#recipe">Пироги</a></li>
-            <li class="nav__li"><a href="#bulki">Булки</a></li>
-            <li class="nav__li"><a href="#milk">Молоко</a></li>
+            <li class="nav__li"><a href="#recipe" tabindex="1">Пироги</a></li>
+            <li class="nav__li"><a href="#bulki" tabindex="2">Булки</a></li>
+            <li class="nav__li"><a href="#milk" tabindex="3">Молоко</a></li>
           </ul>
-          <button class="change-color">Изменить тему</button>
+          <button tabindex="4" class="change-color">Изменить тему</button>
         </nav>
       </div>
     </div>

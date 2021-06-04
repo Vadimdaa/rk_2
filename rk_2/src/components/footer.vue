@@ -2,7 +2,7 @@
   <footer class="footer">
     <div class="container">
       <div class="footer__inner">
-        <h2 class="footer__title">
+        <h2 tabindex="18" class="footer__title">
           Мироненко Вадим, группа 201-321, 04.06.2021
         </h2>
       </div>

@@ -18,6 +18,15 @@ export default {
     main1,
     footer1,
   },
+  data() {
+    return{
+      recipesData: [
+        {id: 1, name: 'рецепт 1', descriprion: 'описание рецепта 1'},
+        {id: 2, name: 'рецепт 2', descriprion: 'описание рецепта 2'},
+        {id: 3, name: 'рецепт 3', descriprion: 'описание рецепта 3'}
+      ]
+    }
+  }
 };
 </script>
 <style>
