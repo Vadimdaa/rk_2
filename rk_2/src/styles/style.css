@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+body,
+html {
+  background-color: #FCBF49;
+  color: #D62828;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: #D62828;
+}
+.nav__li{
+  list-style-type: none;
+}
+.change-color {
+  background-color: #F77F00;
+  color: #f1faee;
+  padding: 1rem 0.6rem;
+  border-radius: 0.5rem;
+}
+.header__logo__img {
+  width: 30%;
+}
+.main__inner {
+  padding-top: 5rem;
+}
+.main__title {
+  font-size: 2.5rem;
+}
+.main section:first-of-type {
+  margin-top: 3rem;
+}
+.main section:not(:first-of-type) {
+  margin-top: 2rem;
+}
+.main section {
+  text-align: start;
+}
+.main section h2 {
+  font-size: 2rem;
+}
+.main .recipe {
+  border: 1px solid #EAE2B7;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.main .bulki {
+  border: 1px solid #EAE2B7;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.main .milk {
+  border: 1px solid #EAE2B7;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.main .blocks {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3rem;
+  margin-top: 1.5rem;
+}
+.main .block {
+  background-color: #EAE2B7;
+  padding: 1rem;
+  border-radius: 1rem;
+  text-align: center;
+  transition: 300ms linear;
+}
+.main .block__title {
+  font-size: 1.5rem;
+}
+.main .block__description {
+  font-size: 1.2rem;
+  padding-top: 1rem;
+}
+.main .block:hover {
+  background-color: #EAE2B7;
+  color: #EAE2B7;
+  transition: 300ms linear;
+}
+
+.footer {
+  text-align: center;
+}
+.footer__title {
+  font-size: 2rem;
+}/*# sourceMappingURL=style.css.map */
