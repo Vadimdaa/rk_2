@@ -23,6 +23,12 @@ a {
 .header__logo__img {
   width: 30%;
 }
+hr {
+    border: none;
+    color: #D62828;
+    background-color: #D62828;
+    height: 2px;
+}
 .main__inner {
   padding-top: 5rem;
 }
@@ -42,17 +48,14 @@ a {
   font-size: 2rem;
 }
 .main .recipe {
-  border: 1px solid #EAE2B7;
   padding: 1rem;
   border-radius: 0.5rem;
 }
 .main .bulki {
-  border: 1px solid #EAE2B7;
   padding: 1rem;
   border-radius: 0.5rem;
 }
 .main .milk {
-  border: 1px solid #EAE2B7;
   padding: 1rem;
   border-radius: 0.5rem;
 }
@@ -64,7 +67,7 @@ a {
   margin-top: 1.5rem;
 }
 .main .block {
-  background-color: #EAE2B7;
+  background-color: #003049;
   padding: 1rem;
   border-radius: 1rem;
   text-align: center;
@@ -79,10 +82,21 @@ a {
 }
 .main .block:hover {
   background-color: #EAE2B7;
-  color: #EAE2B7;
+  color: #D62828;
   transition: 300ms linear;
 }
-
+img.header__logo__img {
+  animation: 1s linear 0s normal none infinite running rot;
+  width: 100px;
+}
+@keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 .footer {
   text-align: center;
 }

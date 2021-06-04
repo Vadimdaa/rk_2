@@ -4,6 +4,7 @@
       <div class="main__inner">
         <h1 class="main__title">Рецепты</h1>
         <section class="main__recipe recipe" id="recipe">
+            <hr>
           <h2 class="recipe__title">Пироги</h2>
           <div class="blocks">
             <div class="recipe__block block">
@@ -27,6 +28,7 @@
           </div>
         </section>
         <section class="main__bulki bulki" id="bulki">
+            <hr>
           <h2 class="bulki__title">Булки</h2>
           <div class="blocks">
             <div class="recipe__block block">
@@ -50,6 +52,7 @@
           </div>
         </section>
         <section class="main__milk milk" id="milk">
+            <hr>
           <h2 class="milk__title">Молоко</h2>
           <div class="blocks">
             <div class="recipe__block block">
